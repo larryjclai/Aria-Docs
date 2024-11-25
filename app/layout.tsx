@@ -20,10 +20,10 @@ const GeistMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AriaDocs - Template",
+  title: "數位廣告 AMA - TWADLab",
   metadataBase: new URL("https://ariadocs.vercel.app/"),
   description:
-    "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
+    "提供各種數位廣告相關的疑難雜症，幫助你在成效上更加進步",
 };
 
 export default function RootLayout({

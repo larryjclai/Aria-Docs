@@ -9,19 +9,12 @@ export function Footer() {
         <div className="flex items-center gap-3">
           <CommandIcon className="sm:block hidden w-5 h-5 text-muted-foreground" />
           <p className="text-center">
-            Build by{" "}
+            內容貢獻者{" "}
             <Link
               className="px-1 underline underline-offset-2"
-              href="https://github.com/nisabmohd"
+              href="https://www.larrynote.com/"
             >
-              nisabmohd
-            </Link>
-            . The source code is available on{" "}
-            <Link
-              className="px-1 underline underline-offset-2"
-              href="https://github.com/nisabmohd/Aria-Docs"
-            >
-              GitHub
+              賴瑞晟
             </Link>
             .
           </p>
@@ -39,18 +32,11 @@ export function FooterButtons() {
   return (
     <>
       <Link
-        href="https://vercel.com/templates/next.js/documentation-template"
-        className={buttonVariants({ variant: "outline", size: "sm" })}
-      >
-        <TriangleIcon className="h-[0.8rem] w-4 mr-2 text-primary fill-current" />
-        Deploy
-      </Link>
-      <Link
-        href="https://github.com/sponsors/nisabmohd"
+        href="https://www.buymeacoffee.com/juichenglai"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <HeartIcon className="h-4 w-4 mr-2 text-red-600 fill-current" />
-        Sponsor
+        小額贊助
       </Link>
     </>
   );
